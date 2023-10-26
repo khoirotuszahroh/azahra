@@ -2,9 +2,12 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 
-def w1(request)
-    template = loader.get_template('w1.html')
+def h1(request)
+    template = loader.get_template('h1.html')
     return HttpResponse(template.render())
-def w2(request)
-    template = loader.get_template('w2.html')
+def h2(request)
+    template = loader.get_template('h2.html')
     return HttpResponse(template.render())
+
+
+# 
